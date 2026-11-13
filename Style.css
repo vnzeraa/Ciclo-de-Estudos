@@ -4,24 +4,105 @@
   box-sizing: border-box;
 }
 
+.tudo{
+    display: flex;
+    flex-direction: row;
+}
+
+.conteudo{
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px;
+}
 #barra-lateral{
-    background-color: #131d30;
+    background-color: #0f1725;
     width: 240px;
     height: 100vh;
-    box-sizing: border-box;
     margin: 0;
     padding: 15px;
 }
 
+.dashboard{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    padding: 16px;
+}
 
-h3{
+.dashboard:hover{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
     color: white;
     margin-bottom: 5px;
     background-color: #08618E;
     border-radius: 12px;
     padding: 16px;
-    
 }
+
+.ciclo-de-estudos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.ciclo-de-estudos:hover{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: white;
+    margin-bottom: 5px;
+    background-color: #08618E;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.materias{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.materias:hover{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: white;
+    margin-bottom: 5px;
+    background-color: #08618E;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.dashboard img{
+    width: 25px;
+}
+
+.ciclo-de-estudos img{
+    width: 25px;
+}
+
+.materias img{
+    width: 25px;
+}
+
 
 .logo{
     size: 200px;
@@ -41,17 +122,7 @@ body {
     font-size: 12px;
 }
 
-.StudyFlow{
-    margin-bottom: 30px;
-    background-color: black;
-    flex: 10px;
-    width: 200px;
-    padding: 20px;
-    border-radius: 10px;
-    font-family: Montserrat;
-}
-
-.ola{
+.mensagem-boasvindas{
      margin-bottom: 30px;
 }
 
@@ -70,6 +141,7 @@ h1{
     border-radius: 10px;
     flex: 1;
     padding: 20px;
+    gap: 10px;
     
 }
 .bloco-4{
