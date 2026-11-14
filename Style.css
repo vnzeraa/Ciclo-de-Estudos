@@ -105,8 +105,6 @@
 
 
 .logo{
-    size: 200px;
-    width: 100%;
     height: 50px;
     margin-bottom: 50px;
 }
@@ -126,14 +124,11 @@ body {
      margin-bottom: 30px;
 }
 
-.titulo{
+.titulo, h1{
     color: white;
 }
 p{
     color: #94A3B8;
-}
-h1{
-    color: white;
 }
 
 .bloco-1, .bloco-2, .bloco-3{
