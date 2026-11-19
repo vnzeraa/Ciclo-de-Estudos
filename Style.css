@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.tudo{
+.principal{
     display: flex;
     flex-direction: row;
 }
@@ -123,14 +123,54 @@ body {
 .mensagem-boasvindas{
      margin-bottom: 30px;
 }
+.barra-superior{
+    display: flex;
+    justify-content: space-between;
 
+}
+
+/* Botão de notificações */
+.btn-notification{
+    button{
+        background-color: #1E293B;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        cursor: pointer;
+        margin: 10px;
+    }
+
+    display: flex;
+    align-items: center;
+    img{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+/* Botão de usuario */
+#user{
+    background-color: #565e6b;
+    border: none;
+    border-radius: 100px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+
+    img{
+        width: 30px;
+        height: 30px;
+        border-radius: 100px;
+    }
+}
+/* Cor do Texto principal */
 .titulo, h1{
     color: white;
 }
 p{
     color: #94A3B8;
 }
-
+/* Blocos de Metas e horas estudadas */
 .bloco-1, .bloco-2, .bloco-3{
     background-color: #1E293B;
     border-radius: 10px;
@@ -139,6 +179,7 @@ p{
     gap: 10px;
     
 }
+/* Bloco de Matérias da semana */
 .bloco-4{
      background-color: #1E293B;
     border-radius: 10px;
